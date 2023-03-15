@@ -1,9 +1,9 @@
 import React from 'react'
 
-const App = () => {
+const app = () => {
 	return (
 		<h1>Hola mundo</h1>
 	);
 }
 
-export default index;
+export default app;
