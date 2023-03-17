@@ -5,12 +5,13 @@ import {
     Route,
   } from "react-router-dom";
 
-import Layout from '../containers/Layout';
-import Login from '../containers/Login';
-import RecoveryPassword from '../containers/RecoveryPassword';
-import Home from '../pages/Home';
-import NotFound from '../pages/NotFound';
-import '../styles/global.css';
+import CreateNewPassword from '@containers/CreateNewPassword';
+import Layout from '@containers/Layout';
+import RecoveryPassword from '@containers/EmailHasBeenSent';
+import Home from '@pages/Home';
+import NotFound from '@pages/NotFound';
+import '@styles/global.css';
+import EmailHasBeenSent from '@containers/EmailHasBeenSent';
 
 const App = () => {
     return (
@@ -18,8 +19,8 @@ const App = () => {
             <Layout>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path='/login' element={<Login />} />
-                    <Route path='/recovery-password' element={<RecoveryPassword />} />
+                    <Route path='/create-new-password' element={<CreateNewPassword />} />
+                    <Route path='/email-has-been-sent' element={<EmailHasBeenSent />} />
                     <Route path='*' element={<NotFound />} />
                 </Routes>
             </Layout>

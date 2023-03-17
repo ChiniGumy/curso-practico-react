@@ -1,6 +1,6 @@
 @import 'vars';
 
-.login {
+.email-has-been-sent {
     width: 100%;
     height: 100vh;
     display: grid;
@@ -28,7 +28,7 @@
 }
 
 .subtitle {
-    color: var(--very-light-pink);
+    color: var(--black-text);
     font-size: var(--md);
     font-weight: 300;
     margin-top: 0;

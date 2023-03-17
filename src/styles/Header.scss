@@ -33,8 +33,8 @@ nav {
 
 .navbar-left ul li a,
 .navbar-right ul li a {
+	color: var(--black-text);
 	text-decoration: none;
-	color: var(--very-light-pink);
 	border: 1px solid var(--white);
 	padding: 8px;
 	border-radius: 8px;
@@ -47,7 +47,7 @@ nav {
 }
 
 .navbar-email {
-	color: var(--very-light-pink);
+	color: var(--black-text);
 	font-size: var(--sm);
 	margin-right: 12px;
 }
