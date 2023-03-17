@@ -1,11 +1,9 @@
 import React from 'react'
-import '../styles/Home.scss'
+import Header from '../components/Header'
 
 const Home = () => {
 	return (
-		<div className='home-container'>
-			<h1>React Shop</h1>
-		</div>
+		<Header/>
 	);
 }
 
