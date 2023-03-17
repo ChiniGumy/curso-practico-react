@@ -1,0 +1,58 @@
+@import 'vars';
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.notfound-container {
+	height: 90vh;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	height: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 3.2rem;
+	color: #7fb887;
+	margin-bottom: 15px;
+}
+
+h2 {
+	color: #252525;
+	font-size: 1.2rem;
+}
+
+p {
+	color: #555;
+	margin-top: 30px;
+	font-size: 0.9rem;
+}
+
+.return-button {
+	color: #252525;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+	border-radius: 10px;
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	background-color: var(--hospital-green);
+	transition: all 200ms;
+}
+
+.return-button:hover {
+	background-color: #94c89b;
+}
