@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import '@styles/EmailHasBeenSent.scss';
 
-import logoYardSale from '@logos/logo_yard_sale.svg'
-import emailIcon from '@icons/email.svg'
+import logoYardSale from '@logos/logo_yard_sale.svg';
+import emailIcon from '@icons/email.svg';
 
 const EmailHasBeenSent = () => {
 	return (
@@ -11,24 +11,24 @@ const EmailHasBeenSent = () => {
                 <img
                     src={logoYardSale}
                     alt="logo"
-                    className="logo"
+                    className="email-has-been-sent__logo"
                 />
 
-                <h1 className="title">Email has been sent!</h1>
-                <p className="subtitle">
+                <h1 className="email-has-been-sent__title">Email has been sent!</h1>
+                <p className="email-has-been-sent__subtitle">
                     Please check your inbox for instructions on how to reset the
                     password
                 </p>
 
-                <div className="email-image">
+                <div className="email-has-been-sent__email-image">
                     <img src={emailIcon} alt="email" />
                 </div>
 
-                <button className="primary-button login-button">Login</button>
+                <button className="email-has-been-sent__primary-button email-has-been-sent__login-button">Login</button>
 
-                <p className="resend">
+                <p className="email-has-been-sent__resend">
                     <span>Didn't receive the email?</span>
-                    <a href="/">Resend</a>
+                    <a href="/"> Resend</a>
                 </p>
             </div>
         </div>

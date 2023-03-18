@@ -10,35 +10,35 @@ const CreateNewPassword = () => {
                 <img
                     src={logoYardSale}
                     alt="logo"
-                    className="logo"
+                    className="create-new-pass__logo"
                 />
-                <h1 className="title">Create a new password</h1>
-                <p className="subtitle">
+                <h1 className="create-new-pass__title">Create a new password</h1>
+                <p className="create-new-pass__subtitle">
                     Enter a new password for your account
                 </p>
-                <form action="/" className="form">
-                    <label htmlFor="password" className="label">
+                <form action="/" className="create-new-pass__form">
+                    <label htmlFor="password" className="create-new-pass__label">
                         Password
                     </label>
                     <input
                         type="password"
                         id="password"
                         placeholder="*********"
-                        className="input input-password"
+                        className="create-new-pass__input create-new-pass__input-password"
                     />
-                    <label htmlFor="new-password" className="label">
+                    <label htmlFor="new-password" className="create-new-pass__label">
                         Password
                     </label>
                     <input
                         type="password"
                         id="new-password"
                         placeholder="*********"
-                        className="input input-password"
+                        className="create-new-pass__input create-new-pass__input-password"
                     />
                     <input
                         type="submit"
                         value="Confirm"
-                        className="primary-button login-button"
+                        className="create-new-pass__primary-button create-new-pass__login-button"
                     />
                 </form>
             </div>

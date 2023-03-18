@@ -11,18 +11,18 @@
 	width: 300px;
 }
 
-.logo {
+.login__logo {
 	width: 150px;
 	margin-bottom: 48px;
 	justify-self: center;
 	display: none;
 }
-.form {
+.login__form {
 	display: flex;
 	flex-direction: column;
 }
 
-.form a {
+.login__form a {
 	color: var(--hospital-green);
 	font-size: var(--sm);
 	text-align: center;
@@ -30,13 +30,13 @@
 	margin-bottom: 52px;
 }
 
-.label {
+.login__label {
 	font-size: var(--sm);
 	font-weight: bold;
 	margin-bottom: 4px;
 }
 
-.input {
+.login__input {
 	background-color: var(--text-input-field);
 	border: none;
 	border-radius: 8px;
@@ -46,11 +46,11 @@
 	margin-bottom: 12px;
 }
 
-.input-email {
+.login__input-email {
 	margin-bottom: 22px;
 }
 
-.primary-button {
+.login__primary-button {
 	background-color: var(--hospital-green);
 	border-radius: 8px;
 	border: none;
@@ -62,7 +62,7 @@
 	height: 50px;
 }
 
-.secondary-button {
+.login__secondary-button {
 	background-color: var(--white);
 	border-radius: 8px;
 	border: 1px solid var(--hospital-green);
@@ -74,13 +74,13 @@
 	height: 50px;
 }
 
-.login-button {
+.login__login-button {
 	margin-top: 14px;
 	margin-bottom: 30px;
 }
 
 @media (max-width: 640px) {
-	.logo {
+	.login__logo {
 		display: block;
 	}
 }
