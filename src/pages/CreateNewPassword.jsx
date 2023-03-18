@@ -5,8 +5,8 @@ import logoYardSale from '@logos/logo_yard_sale.svg';
 
 const CreateNewPassword = () => {
 	return (
-        <div className="create-new-password">
-            <div className="form-container">
+        <div className="create-new-pass__container">
+            <div className="create-new-pass__form-container">
                 <img
                     src={logoYardSale}
                     alt="logo"

@@ -6,8 +6,8 @@ import emailIcon from '@icons/email.svg'
 
 const EmailHasBeenSent = () => {
 	return (
-        <div className="email-has-been-sent">
-            <div className="form-container">
+        <div className="email-has-been-sent__container">
+            <div className="email-has-been-sent__form-container">
                 <img
                     src={logoYardSale}
                     alt="logo"
