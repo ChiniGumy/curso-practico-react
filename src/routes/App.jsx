@@ -13,7 +13,8 @@ import EmailHasBeenSent from '@pages/EmailHasBeenSent';
 import MyAccountCreate from '@pages/MyAccountCreate';
 import MyAccountEdit from '@pages/MyAccountEdit';
 import PasswordRecovery from '@pages/PasswordRecovery';
-
+import Checkout from '@pages/Checkout'
+import Orders from '@pages/Orders'
 
 const App = () => {
     return (
@@ -29,6 +30,9 @@ const App = () => {
 
                     <Route path='/my-account-create' element={<MyAccountCreate/>} />
                     <Route path='/my-account-edit' element={<MyAccountEdit/>} />
+
+                    <Route path='/orders' element={<Orders/>} />
+                    <Route path='/checkout' element={<Checkout/>} />
                     <Route path='*' element={<NotFound />} />
                 </Routes>
             </Layout>
