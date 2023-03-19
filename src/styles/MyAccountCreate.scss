@@ -1,0 +1,85 @@
+.my-account-create__login {
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+.my-account-create__form-container {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	width: 300px;
+}
+
+.my-account-create__logo {
+	width: 150px;
+	margin-bottom: 48px;
+	justify-self: center;
+	display: none;
+}
+
+.my-account-create__title {
+	font-size: var(--lg);
+	margin-bottom: 36px;
+	text-align: start;
+}
+
+.my-account-create__form {
+	display: flex;
+	flex-direction: column;
+}
+
+.my-account-create__form div {
+	display: flex;
+	flex-direction: column;
+}
+
+.my-account-create__label {
+	font-size: var(--sm);
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+.my-account-create__input {
+	background-color: var(--text-input-field);
+	border: none;
+	border-radius: 8px;
+	height: 30px;
+	font-size: var(--md);
+	padding: 6px;
+	margin-bottom: 12px;
+}
+
+.my-account-create__input-name,
+.my-account-create__input-email,
+.my-account-create__input-password {
+	margin-bottom: 22px;
+}
+
+.my-account-create__primary-button {
+	background-color: var(--hospital-green);
+	border-radius: 8px;
+	border: none;
+	color: var(--white);
+	width: 100%;
+	cursor: pointer;
+	font-size: var(--md);
+	font-weight: bold;
+	height: 50px;
+}
+
+.my-account-create__login-button {
+	margin-top: 14px;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 640px) {
+	.my-account-create__form-container {
+		height: 100%;
+	}
+
+	.my-account-create__form {
+		height: 100%;
+		justify-content: space-between;
+	}
+}

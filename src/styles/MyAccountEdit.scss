@@ -1,0 +1,75 @@
+.my-account-edit__login {
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+.my-account-edit__form-container {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	width: 300px;
+}
+
+.my-account-edit__logo {
+	width: 150px;
+	margin-bottom: 48px;
+	justify-self: center;
+	display: none;
+}
+
+.my-account-edit__title {
+	font-size: var(--lg);
+	margin-bottom: 36px;
+	text-align: start;
+}
+
+.my-account-edit__form {
+	display: flex;
+	flex-direction: column;
+}
+
+.my-account-edit__form div {
+	display: flex;
+	flex-direction: column;
+}
+
+.my-account-edit__label {
+	font-size: var(--sm);
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+.my-account-edit__value {
+	color: var(--very-light-pink);
+	font-size: var(--md);
+	margin: 8px 0 32px 0;
+}
+
+.my-account-edit__secondary-button {
+	background-color: var(--white);
+	border-radius: 8px;
+	border: 1px solid var(--hospital-green);
+	color: var(--hospital-green);
+	width: 100%;
+	cursor: pointer;
+	font-size: var(--md);
+	font-weight: bold;
+	height: 50px;
+}
+
+.my-account-edit__login-button {
+	margin-top: 14px;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 640px) {
+	.my-account-edit__form-container {
+		height: 100%;
+	}
+
+	.my-account-edit__form {
+		height: 100%;
+		justify-content: space-between;
+	}
+}

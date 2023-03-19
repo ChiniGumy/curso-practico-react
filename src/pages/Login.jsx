@@ -7,10 +7,6 @@ const Login = () => {
 	return (
         <div className="login__container">
 
-            <Helmet>
-                <title>Login</title>
-            </Helmet>
-
             <div className="login__form-container">
                 <img src={logoYardSale} alt="logo" className="login__logo" />
 
@@ -40,7 +36,7 @@ const Login = () => {
                         value="Log in"
                         className="login__primary-button login__login-button"
                     />
-                    <a href="/">Forgot my password</a>
+                    <a href="/password-recovery">Forgot my password</a>
                 </form>
                 <button className="login__secondary-button login__signup-button">Sign up</button>
             </div>
