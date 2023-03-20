@@ -38,6 +38,7 @@ nav {
 	border: 1px solid var(--white);
 	padding: 8px;
 	border-radius: 8px;
+	transition: all 200ms;
 }
 
 .navbar-left ul li a:hover,
@@ -47,9 +48,10 @@ nav {
 }
 
 .navbar-email {
-	color: var(--black-text);
+	color: #39b61a;
 	font-size: var(--sm);
 	margin-right: 12px;
+	cursor: pointer;
 }
 
 .navbar-shopping-cart {
