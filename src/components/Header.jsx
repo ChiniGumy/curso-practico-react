@@ -6,11 +6,13 @@ import logoYardSale from '@logos/logo_yard_sale.svg';
 import shoppingCart from '@icons/icon_shopping_cart.svg';
 import Menu from '@components/Menu';
 import AppContext from '@context/AppContext';
+import MyOrder from '@containers/MyOrder'
 
 const Header = () => {
 
     const [toggle, setToggle] = useState(false);
-    const {state} = useContext(AppContext)
+    const {state} = useContext(AppContext);
+    const [toggleOrders, setToggleOrders] = useState(false);
 
     const handleToggle = () => {
         setToggle(!toggle);
@@ -51,7 +53,10 @@ const Header = () => {
                         platzi@example.com
                     </li>
 
-                    <li className="navbar-shopping-cart">
+                    <li className="navbar-shopping-cart"
+                        onClick={() => setToggleOrders(!toggleOrders)}
+                    >
+
                         <img src={shoppingCart} alt="shopping cart" />
 
                         {
@@ -64,6 +69,7 @@ const Header = () => {
                 </ul>
             </div>
             {toggle && <Menu />}
+            {toggleOrders && <MyOrder />}
         </nav>
     );
 }
