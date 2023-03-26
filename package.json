@@ -9,7 +9,7 @@
     "build": "webpack --mode production",
     "stop": "taskkill -F -IM node.exe",
     "predeploy": "npm run build",
-    "deploy": "gh-pahes -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
