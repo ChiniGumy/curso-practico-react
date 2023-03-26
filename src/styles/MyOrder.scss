@@ -1,8 +1,8 @@
 @import 'vars';
 
 .MyOrder {
-	width: 360px;
-	padding: 24px;
+	width: 390px;
+	padding: 0 24px 24px;
 	box-sizing: border-box;
 	position: absolute;
 	right: 0;
@@ -20,16 +20,26 @@
 }
 
 .title-container {
+	width: 120px;
+	height: 80px;
+	align-items: center;
 	display: flex;
+	justify-content: space-between;
 }
+
 .title-container img {
+	cursor: pointer;
 	transform: rotate(180deg);
-	margin-right: 14px;
+	height: 18px;
 }
+
 .title {
+	display: flex;
+	margin: 0 !important;
 	font-size: var(--lg);
 	font-weight: bold;
 }
+
 .order {
 	display: grid;
 	grid-template-columns: auto 1fr;

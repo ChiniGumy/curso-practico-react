@@ -1,8 +1,12 @@
 nav {
 	display: flex;
-	justify-content: space-between;
-	padding: 0 24px;
 	border-bottom: 1px solid var(--very-light-pink);
+	position: fixed;
+	background-color: white;
+	top: 0;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
 }
 
 .menu {
@@ -25,6 +29,18 @@ nav {
 
 .navbar-left {
 	display: flex;
+}
+
+.navbar-left img {
+	height: 100%;
+	display: flex;
+	position: absolute;
+	left: 80px;
+}
+
+.navbar-right {
+	position: absolute;
+	right: 80px;
 }
 
 .navbar-left ul {
